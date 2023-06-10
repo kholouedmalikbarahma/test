@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 2px solid#000;
+}
+.container .row>*{
+    padding-left: 0;
+    padding-right: 0;
+}
+.test-coll{
+    border-left: 2px solid #000;
+}
+.test .testcoll h1{
+    font-size: 1.5rem;
+  
+}
+.test .testcoll  h1{
+    border-bottom: 2px solid #000;
+    padding: 5px 0;
+}
+
+.test .testcoll nav ul li{
+    font-size: 1rem;
+    font-weight: bold;
+   padding: 15px 15px;
+}
+
+.test-coll .img1{
+    width: 70%;
+   margin: auto;
+}
+.img1 img{
+    width: 100%;
+    
+}
+.test-coll .img2{
+    width: 20%;
+    margin: auto;
+}
+.test-coll .img2 img{
+    border-radius: 60px;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px dashed #000;
+
+}
+.test-coll h2,h3,.test-p{
+   text-align: center;
+   text-transform: capitalize;
+}
+.test-coll h2{
+    color: blue;
+    font-size: 1.5rem;
+}
+.test-coll h3,.test-p{
+    font-size: 1rem;
+}
+.test-coll .test-p i{
+    font-size: 1.5rem;
+}
+.test-coll .testt{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 25px;
+    
+}
+.test-coll .testt div{
+margin-left: 30px;
+text-align: center;
+}
+.test-coll .testt div h5{
+    font-size: 3rem;
+    color: blue;
+}
+.test-coll .testt div h4{
+    font-size: 1rem;
+   line-height: 0px;
+}
+.test-coll .btnn{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.test-coll button{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 5px 20px;
+    font-size: 1rem;
+   margin-top: 30px;
+    border: none;
+}
+.test-coll .testdd{
+  text-align: center;
+}
+.test-coll .testdd span{
+    font-size: 1.3rem;
+    border-bottom: 1px solid #000;
+}
+.test-coll .testdd span:hover{
+    cursor: pointer;
+}
+.test-coll .testdd .active{
+    color: blue;
+    margin-right: 145px;
+}
+.test-coll .imff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+.test-coll .imff img{
+    width: 30%;
+    align-items: center;
+}
+.nav {
+position: static;
+    background-color: #faf8f8;
+    margin-top: 20px;
+}
+.nav-item i{
+    font-size: 2rem;
+    color: #ccc;
+    margin-right: 25px;
+}
+.nav-item .ii{
+    color: #3e0896;
+   
+}
+.nav .pp{
+    color: #3e0896;
+    font-size: 2.6rem;
+    margin-right: 10px;
+    margin-top: -20px;
+    text-align: center;
+}
+@media (max-width: 991.98px) { 
+    .test .testcoll h1{
+        font-size: 1rem;
+      
+    }
+    .test .testcoll nav ul li{
+        font-size: .9rem;
+        font-weight: bold;
+       padding: 15px 8px;
+    }
+    .test-coll .testt div h5{
+        font-size: 2rem;
+        color: blue;
+    }
+    .nav-item i{
+        font-size: 1.5rem;
+        color: #ccc;
+        margin-right: 20px;
+    }
+    .nav .pp{
+        color: #3e0896;
+        font-size: 1.5rem;
+        margin-right: 10px;
+        margin-top: -15px;
+      
+    }
+    
+ }
+ @media (max-width: 767.98px) { 
+    .test .testcoll h1{
+        font-size: 1.5rem;
+      
+    }
+    .test .testcoll nav ul li{
+        font-size: 1rem;
+        font-weight: bold;
+       padding: 15px 10px;
+    }
+    .test-coll{
+        border-left: none;
+        
+    }
+    .testcoll{
+        border-bottom: 2px solid #000;
+    }
+  }
+  @media (max-width: 575.98px) { 
+    .test .testcoll h1{
+        font-size: 1rem;
+      
+    }
+    .test .testcoll nav ul li{
+        font-size: .8rem;
+        font-weight: bold;
+       padding: 15px 8px;
+    }
+    .test-coll .testt div h5{
+        font-size: 1.5rem;
+       
+    }
+    .test-coll h3,.test-p{
+        font-size: .8rem;
+    }
+    .test-coll .testt div h4{
+        font-size: 1rem;
+       line-height: 5px;
+    }
+    .test-coll button{
+     
+        padding: 5px 15px;
+        font-size: 1rem;
+       
+    }
+    .nav {
+        position: static;
+         
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+   }
+
+
+
